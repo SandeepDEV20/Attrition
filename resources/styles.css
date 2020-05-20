@@ -1,0 +1,157 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.navbar{
+		background-color: rgba(0,0,0,0.4)
+}
+
+ul li a:hover{
+	background-color: #bf463d;
+}
+
+/*    BACKGROUND IMAGE   */
+#header{
+    background-image: url('https://images.unsplash.com/photo-1555066932-e78dd8fb77bb?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.headerset{
+	padding-top: 250px;
+	box-sizing: border-box;
+
+}
+
+.headerset h2{
+	font-size: 42px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.headerset h1{
+	font-size: 72px;
+	font-weight:bold;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* --------- QUOTES ---------- */
+
+#about {
+	background-image: url('https://images.unsplash.com/photo-1495975832350-f46e82f0ceb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 30px 0px 50px 0px;
+}
+
+#about h1{
+		padding: 30px 0px;
+		font-size: 50px;
+		font-weight: bold;
+		font-family: 'Ubuntu', sans-serif;
+}
+
+/*    FOR WORK HARD LINE*/
+#about  p{
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* ----------------SNAPS ----------------*/
+.snapbg{
+	background-image: url('https://images.pexels.com/photos/8395/lights-night-unsharp-blured.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+}
+
+.snaps{
+  	height:auto;
+	width: 100%;
+}
+
+.snaps h1{
+	font-size: 50px;
+	font-weight: bold;
+	padding-top: 60px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.snaps p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.marginsetting{
+	margin-top: 40px;
+}
+
+/* ------------------CONTACT------------------------------------ */
+.contactbg{
+	background-image: url('https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+}
+
+.contactbg h3{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.contact-form{
+    background: #fff;
+    width: 70%;
+}
+
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*--------------- SOCIAL ---------*/
+.social{
+	background-image: url('https://images.pexels.com/photos/1305660/pexels-photo-1305660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+	background-attachment: fixed;
+	width: 104%;
+	height: auto;
+}
+
+.social .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color:white;
+}
+
+.social h3{
+	color:white;
+	padding-top: 20px;
+}
+
+.social a:hover{
+	color:orange;
+}
